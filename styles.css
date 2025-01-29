@@ -1,0 +1,233 @@
+body{
+	 box-sizing: border-box;
+    font-family: Argesta;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-right: auto;
+}
+h1 {
+    font-size: 24px;
+    margin: 0 auto;  
+    text-align: center;
+    flex-grow: 1;  
+}
+
+h3 {
+    font-size: 22px; 
+    color: #1a1a2e;   
+    padding: 8px 15px;
+    border-left: 5px solid #03224C;  
+    border-radius: 5px;  
+    font-weight: bold;  
+    margin-top: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #16213e;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: #1a1a2e;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+main article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+
+main article h3 {
+    color: #03224C;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main article img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main figure {
+	 display: flex;
+	 flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+main figure img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+main figure figcaption {
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main table thead {
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+main table th, main table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+main table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+main table tr:hover {
+    background-color: #e8f0fe;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.special {
+    font-size: 18px;
+    color: #1a1a2e;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    background: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid #03224C;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3.special{
+    font-size: 22px;
+    color: #03224C;
+    font-weight: bold;
+    background: #e8f0fe;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+h2.special{
+    font-size: 22px;
+    color: #1a1a2e;
+    font-weight: bold;
+    background: #d0d3e0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+h2.special-alt {
+    font-size: 26px;
+    color: #021B4D;
+    font-weight: bold;
+    background: #E3EAFD; /* Bleu ciel léger */
+    padding: 10px;
+    border-left: 6px solid #021B4D;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#identifiant {
+    color: #ffffff;
+    background-color: #1a1a2e;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
